@@ -2,3 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
+.button-primary {
+    @apply bg-green-500 uppercase text-sm tracking-widest text-gray-900 rounded-md px-8 py-2;
+}
