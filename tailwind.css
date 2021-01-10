@@ -24,10 +24,14 @@ body {
 
 .text-button:after, .text-button-blue:after {
     content: "";
-    @apply ml-2 block;
+    @apply ml-1 block;
     width: 24px;
     height: 24px;
     background: url(https://f.hubspotusercontent40.net/hubfs/5626040/Website%20Icons/chevron-right.svg) no-repeat center center;
+}
+
+.text-button-blue:after {
+    background: url(https://f.hubspotusercontent40.net/hubfs/5626040/Website%20Icons/chevron-right-blue.svg) no-repeat center center;
 }
 
 .text-button-blue {
