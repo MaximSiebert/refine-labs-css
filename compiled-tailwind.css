@@ -31256,6 +31256,8 @@ body {
 }
 
 .text-button, .text-button-blue {
+  display: flex;
+  align-items: center;
   font-weight: 700;
   font-size: 1.25rem;
   line-height: 1.75rem;
@@ -31265,10 +31267,11 @@ body {
 
 .text-button:after, .text-button-blue:after {
   content: "";
+  display: block;
   margin-left: 0.5rem;
   width: 24px;
   height: 24px;
-  background: url(https://f.hubspotusercontent40.net/hubfs/5626040/Website%20Icons/chevron-right%20(1).svg) no-repeat center center;
+  background: url(https://f.hubspotusercontent40.net/hubfs/5626040/Website%20Icons/chevron-right.svg) no-repeat center center;
 }
 
 .text-button-blue {
