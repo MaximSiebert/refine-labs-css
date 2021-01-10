@@ -21304,7 +21304,7 @@ video {
 }
 
 .shadow-xl {
-  --tw-shadow: 0 20px 25px -5px rgba(35, 219, 111, 0.33), 0 10px 10px -5px rgba(35, 219, 111, 0.1);
+  --tw-shadow: 0 15px 20px -5px rgba(35, 219, 111, 0.33), 0 10px 10px -5px rgba(35, 219, 111, 0.1);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
@@ -21344,7 +21344,7 @@ video {
 }
 
 .group:hover .group-hover\:shadow-xl {
-  --tw-shadow: 0 20px 25px -5px rgba(35, 219, 111, 0.33), 0 10px 10px -5px rgba(35, 219, 111, 0.1);
+  --tw-shadow: 0 15px 20px -5px rgba(35, 219, 111, 0.33), 0 10px 10px -5px rgba(35, 219, 111, 0.1);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
@@ -21384,7 +21384,7 @@ video {
 }
 
 .focus-within\:shadow-xl:focus-within {
-  --tw-shadow: 0 20px 25px -5px rgba(35, 219, 111, 0.33), 0 10px 10px -5px rgba(35, 219, 111, 0.1);
+  --tw-shadow: 0 15px 20px -5px rgba(35, 219, 111, 0.33), 0 10px 10px -5px rgba(35, 219, 111, 0.1);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
@@ -21424,7 +21424,7 @@ video {
 }
 
 .hover\:shadow-xl:hover {
-  --tw-shadow: 0 20px 25px -5px rgba(35, 219, 111, 0.33), 0 10px 10px -5px rgba(35, 219, 111, 0.1);
+  --tw-shadow: 0 15px 20px -5px rgba(35, 219, 111, 0.33), 0 10px 10px -5px rgba(35, 219, 111, 0.1);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
@@ -21464,7 +21464,7 @@ video {
 }
 
 .focus\:shadow-xl:focus {
-  --tw-shadow: 0 20px 25px -5px rgba(35, 219, 111, 0.33), 0 10px 10px -5px rgba(35, 219, 111, 0.1);
+  --tw-shadow: 0 15px 20px -5px rgba(35, 219, 111, 0.33), 0 10px 10px -5px rgba(35, 219, 111, 0.1);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
@@ -31190,7 +31190,7 @@ body {
 }
 
 .button-primary:hover {
-  --tw-shadow: 0 20px 25px -5px rgba(35, 219, 111, 0.33), 0 10px 10px -5px rgba(35, 219, 111, 0.1);
+  --tw-shadow: 0 15px 20px -5px rgba(35, 219, 111, 0.33), 0 10px 10px -5px rgba(35, 219, 111, 0.1);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
@@ -51961,7 +51961,7 @@ body {
   }
 
   .sm\:shadow-xl {
-    --tw-shadow: 0 20px 25px -5px rgba(35, 219, 111, 0.33), 0 10px 10px -5px rgba(35, 219, 111, 0.1);
+    --tw-shadow: 0 15px 20px -5px rgba(35, 219, 111, 0.33), 0 10px 10px -5px rgba(35, 219, 111, 0.1);
     box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
   }
 
@@ -52001,7 +52001,7 @@ body {
   }
 
   .group:hover .sm\:group-hover\:shadow-xl {
-    --tw-shadow: 0 20px 25px -5px rgba(35, 219, 111, 0.33), 0 10px 10px -5px rgba(35, 219, 111, 0.1);
+    --tw-shadow: 0 15px 20px -5px rgba(35, 219, 111, 0.33), 0 10px 10px -5px rgba(35, 219, 111, 0.1);
     box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
   }
 
@@ -52041,7 +52041,7 @@ body {
   }
 
   .sm\:focus-within\:shadow-xl:focus-within {
-    --tw-shadow: 0 20px 25px -5px rgba(35, 219, 111, 0.33), 0 10px 10px -5px rgba(35, 219, 111, 0.1);
+    --tw-shadow: 0 15px 20px -5px rgba(35, 219, 111, 0.33), 0 10px 10px -5px rgba(35, 219, 111, 0.1);
     box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
   }
 
@@ -52081,7 +52081,7 @@ body {
   }
 
   .sm\:hover\:shadow-xl:hover {
-    --tw-shadow: 0 20px 25px -5px rgba(35, 219, 111, 0.33), 0 10px 10px -5px rgba(35, 219, 111, 0.1);
+    --tw-shadow: 0 15px 20px -5px rgba(35, 219, 111, 0.33), 0 10px 10px -5px rgba(35, 219, 111, 0.1);
     box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
   }
 
@@ -52121,7 +52121,7 @@ body {
   }
 
   .sm\:focus\:shadow-xl:focus {
-    --tw-shadow: 0 20px 25px -5px rgba(35, 219, 111, 0.33), 0 10px 10px -5px rgba(35, 219, 111, 0.1);
+    --tw-shadow: 0 15px 20px -5px rgba(35, 219, 111, 0.33), 0 10px 10px -5px rgba(35, 219, 111, 0.1);
     box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
   }
 
@@ -82505,7 +82505,7 @@ body {
   }
 
   .md\:shadow-xl {
-    --tw-shadow: 0 20px 25px -5px rgba(35, 219, 111, 0.33), 0 10px 10px -5px rgba(35, 219, 111, 0.1);
+    --tw-shadow: 0 15px 20px -5px rgba(35, 219, 111, 0.33), 0 10px 10px -5px rgba(35, 219, 111, 0.1);
     box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
   }
 
@@ -82545,7 +82545,7 @@ body {
   }
 
   .group:hover .md\:group-hover\:shadow-xl {
-    --tw-shadow: 0 20px 25px -5px rgba(35, 219, 111, 0.33), 0 10px 10px -5px rgba(35, 219, 111, 0.1);
+    --tw-shadow: 0 15px 20px -5px rgba(35, 219, 111, 0.33), 0 10px 10px -5px rgba(35, 219, 111, 0.1);
     box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
   }
 
@@ -82585,7 +82585,7 @@ body {
   }
 
   .md\:focus-within\:shadow-xl:focus-within {
-    --tw-shadow: 0 20px 25px -5px rgba(35, 219, 111, 0.33), 0 10px 10px -5px rgba(35, 219, 111, 0.1);
+    --tw-shadow: 0 15px 20px -5px rgba(35, 219, 111, 0.33), 0 10px 10px -5px rgba(35, 219, 111, 0.1);
     box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
   }
 
@@ -82625,7 +82625,7 @@ body {
   }
 
   .md\:hover\:shadow-xl:hover {
-    --tw-shadow: 0 20px 25px -5px rgba(35, 219, 111, 0.33), 0 10px 10px -5px rgba(35, 219, 111, 0.1);
+    --tw-shadow: 0 15px 20px -5px rgba(35, 219, 111, 0.33), 0 10px 10px -5px rgba(35, 219, 111, 0.1);
     box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
   }
 
@@ -82665,7 +82665,7 @@ body {
   }
 
   .md\:focus\:shadow-xl:focus {
-    --tw-shadow: 0 20px 25px -5px rgba(35, 219, 111, 0.33), 0 10px 10px -5px rgba(35, 219, 111, 0.1);
+    --tw-shadow: 0 15px 20px -5px rgba(35, 219, 111, 0.33), 0 10px 10px -5px rgba(35, 219, 111, 0.1);
     box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
   }
 
@@ -113049,7 +113049,7 @@ body {
   }
 
   .lg\:shadow-xl {
-    --tw-shadow: 0 20px 25px -5px rgba(35, 219, 111, 0.33), 0 10px 10px -5px rgba(35, 219, 111, 0.1);
+    --tw-shadow: 0 15px 20px -5px rgba(35, 219, 111, 0.33), 0 10px 10px -5px rgba(35, 219, 111, 0.1);
     box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
   }
 
@@ -113089,7 +113089,7 @@ body {
   }
 
   .group:hover .lg\:group-hover\:shadow-xl {
-    --tw-shadow: 0 20px 25px -5px rgba(35, 219, 111, 0.33), 0 10px 10px -5px rgba(35, 219, 111, 0.1);
+    --tw-shadow: 0 15px 20px -5px rgba(35, 219, 111, 0.33), 0 10px 10px -5px rgba(35, 219, 111, 0.1);
     box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
   }
 
@@ -113129,7 +113129,7 @@ body {
   }
 
   .lg\:focus-within\:shadow-xl:focus-within {
-    --tw-shadow: 0 20px 25px -5px rgba(35, 219, 111, 0.33), 0 10px 10px -5px rgba(35, 219, 111, 0.1);
+    --tw-shadow: 0 15px 20px -5px rgba(35, 219, 111, 0.33), 0 10px 10px -5px rgba(35, 219, 111, 0.1);
     box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
   }
 
@@ -113169,7 +113169,7 @@ body {
   }
 
   .lg\:hover\:shadow-xl:hover {
-    --tw-shadow: 0 20px 25px -5px rgba(35, 219, 111, 0.33), 0 10px 10px -5px rgba(35, 219, 111, 0.1);
+    --tw-shadow: 0 15px 20px -5px rgba(35, 219, 111, 0.33), 0 10px 10px -5px rgba(35, 219, 111, 0.1);
     box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
   }
 
@@ -113209,7 +113209,7 @@ body {
   }
 
   .lg\:focus\:shadow-xl:focus {
-    --tw-shadow: 0 20px 25px -5px rgba(35, 219, 111, 0.33), 0 10px 10px -5px rgba(35, 219, 111, 0.1);
+    --tw-shadow: 0 15px 20px -5px rgba(35, 219, 111, 0.33), 0 10px 10px -5px rgba(35, 219, 111, 0.1);
     box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
   }
 
@@ -143593,7 +143593,7 @@ body {
   }
 
   .xl\:shadow-xl {
-    --tw-shadow: 0 20px 25px -5px rgba(35, 219, 111, 0.33), 0 10px 10px -5px rgba(35, 219, 111, 0.1);
+    --tw-shadow: 0 15px 20px -5px rgba(35, 219, 111, 0.33), 0 10px 10px -5px rgba(35, 219, 111, 0.1);
     box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
   }
 
@@ -143633,7 +143633,7 @@ body {
   }
 
   .group:hover .xl\:group-hover\:shadow-xl {
-    --tw-shadow: 0 20px 25px -5px rgba(35, 219, 111, 0.33), 0 10px 10px -5px rgba(35, 219, 111, 0.1);
+    --tw-shadow: 0 15px 20px -5px rgba(35, 219, 111, 0.33), 0 10px 10px -5px rgba(35, 219, 111, 0.1);
     box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
   }
 
@@ -143673,7 +143673,7 @@ body {
   }
 
   .xl\:focus-within\:shadow-xl:focus-within {
-    --tw-shadow: 0 20px 25px -5px rgba(35, 219, 111, 0.33), 0 10px 10px -5px rgba(35, 219, 111, 0.1);
+    --tw-shadow: 0 15px 20px -5px rgba(35, 219, 111, 0.33), 0 10px 10px -5px rgba(35, 219, 111, 0.1);
     box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
   }
 
@@ -143713,7 +143713,7 @@ body {
   }
 
   .xl\:hover\:shadow-xl:hover {
-    --tw-shadow: 0 20px 25px -5px rgba(35, 219, 111, 0.33), 0 10px 10px -5px rgba(35, 219, 111, 0.1);
+    --tw-shadow: 0 15px 20px -5px rgba(35, 219, 111, 0.33), 0 10px 10px -5px rgba(35, 219, 111, 0.1);
     box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
   }
 
@@ -143753,7 +143753,7 @@ body {
   }
 
   .xl\:focus\:shadow-xl:focus {
-    --tw-shadow: 0 20px 25px -5px rgba(35, 219, 111, 0.33), 0 10px 10px -5px rgba(35, 219, 111, 0.1);
+    --tw-shadow: 0 15px 20px -5px rgba(35, 219, 111, 0.33), 0 10px 10px -5px rgba(35, 219, 111, 0.1);
     box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
   }
 
@@ -174137,7 +174137,7 @@ body {
   }
 
   .\32xl\:shadow-xl {
-    --tw-shadow: 0 20px 25px -5px rgba(35, 219, 111, 0.33), 0 10px 10px -5px rgba(35, 219, 111, 0.1);
+    --tw-shadow: 0 15px 20px -5px rgba(35, 219, 111, 0.33), 0 10px 10px -5px rgba(35, 219, 111, 0.1);
     box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
   }
 
@@ -174177,7 +174177,7 @@ body {
   }
 
   .group:hover .\32xl\:group-hover\:shadow-xl {
-    --tw-shadow: 0 20px 25px -5px rgba(35, 219, 111, 0.33), 0 10px 10px -5px rgba(35, 219, 111, 0.1);
+    --tw-shadow: 0 15px 20px -5px rgba(35, 219, 111, 0.33), 0 10px 10px -5px rgba(35, 219, 111, 0.1);
     box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
   }
 
@@ -174217,7 +174217,7 @@ body {
   }
 
   .\32xl\:focus-within\:shadow-xl:focus-within {
-    --tw-shadow: 0 20px 25px -5px rgba(35, 219, 111, 0.33), 0 10px 10px -5px rgba(35, 219, 111, 0.1);
+    --tw-shadow: 0 15px 20px -5px rgba(35, 219, 111, 0.33), 0 10px 10px -5px rgba(35, 219, 111, 0.1);
     box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
   }
 
@@ -174257,7 +174257,7 @@ body {
   }
 
   .\32xl\:hover\:shadow-xl:hover {
-    --tw-shadow: 0 20px 25px -5px rgba(35, 219, 111, 0.33), 0 10px 10px -5px rgba(35, 219, 111, 0.1);
+    --tw-shadow: 0 15px 20px -5px rgba(35, 219, 111, 0.33), 0 10px 10px -5px rgba(35, 219, 111, 0.1);
     box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
   }
 
@@ -174297,7 +174297,7 @@ body {
   }
 
   .\32xl\:focus\:shadow-xl:focus {
-    --tw-shadow: 0 20px 25px -5px rgba(35, 219, 111, 0.33), 0 10px 10px -5px rgba(35, 219, 111, 0.1);
+    --tw-shadow: 0 15px 20px -5px rgba(35, 219, 111, 0.33), 0 10px 10px -5px rgba(35, 219, 111, 0.1);
     box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
   }
 
