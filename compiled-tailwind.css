@@ -31167,6 +31167,13 @@ video {
           animation: bounce 1s infinite;
 }
 
+body {
+  --tw-bg-opacity: 1;
+  background-color: rgba(21, 21, 23, var(--tw-bg-opacity));
+  --tw-text-opacity: 1;
+  color: rgba(225, 225, 246, var(--tw-text-opacity));
+}
+
 .button-primary {
   --tw-bg-opacity: 1;
   background-color: rgba(35, 220, 112, var(--tw-bg-opacity));
