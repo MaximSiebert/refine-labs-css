@@ -39,5 +39,5 @@ body {
 }
 
 .eyebrow {
-    @apply uppercase font-bold text-gray-700 tracking-widest;
+    @apply uppercase font-bold text-gray-700 tracking-widest mb-4;
 }

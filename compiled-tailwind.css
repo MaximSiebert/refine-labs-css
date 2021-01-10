@@ -31285,6 +31285,7 @@ body {
 
 .eyebrow {
   font-weight: 700;
+  margin-bottom: 1rem;
   --tw-text-opacity: 1;
   color: rgba(66, 65, 85, var(--tw-text-opacity));
   text-transform: uppercase;
