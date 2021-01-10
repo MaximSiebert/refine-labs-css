@@ -31074,7 +31074,10 @@ video {
   font-weight: 700;
   font-size: 0.875rem;
   line-height: 1.25rem;
-  padding: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
   color: 151517;
   text-transform: uppercase;
   letter-spacing: 0.1em;
