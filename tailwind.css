@@ -9,3 +9,11 @@ body {
 .button-primary {
     @apply bg-green-400 uppercase text-sm tracking-widest text-gray-900 rounded-md py-4 px-5 font-bold shadow-lg hover:shadow-xl transition-shadow ease-in-out duration-200;
 }
+
+.button-secondary, .button-secondary-large {
+    @apply border-2 border-green-400 text-sm text-white rounded-md py-4 px-5 font-bold font-serif transition-colors ease-in-out duration-200;
+}
+
+.button-secondary-large {
+    @apply text-xl text-green-500;
+}
