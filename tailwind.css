@@ -7,5 +7,5 @@ body {
 }
 
 .button-primary {
-    @apply bg-green-400 uppercase text-sm tracking-widest text-gray-900 rounded-md py-4 px-5 font-bold shadow-lg;
+    @apply bg-green-400 uppercase text-sm tracking-widest text-gray-900 rounded-md py-4 px-5 font-bold shadow-lg hover:shadow-xl transition-shadow ease-in-out duration-200;
 }
