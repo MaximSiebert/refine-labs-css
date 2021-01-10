@@ -37,3 +37,7 @@ body {
 .text-button-blue {
     @apply text-blue-400;
 }
+
+.eyebrow {
+    @apply uppercase font-bold text-gray-700 tracking-widest;
+}

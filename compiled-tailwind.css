@@ -31283,6 +31283,14 @@ body {
   color: rgba(62, 172, 248, var(--tw-text-opacity));
 }
 
+.eyebrow {
+  font-weight: 700;
+  --tw-text-opacity: 1;
+  color: rgba(66, 65, 85, var(--tw-text-opacity));
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
 @media (min-width: 640px) {
   .sm\:container {
     width: 100%;
