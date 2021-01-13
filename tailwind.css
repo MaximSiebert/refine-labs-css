@@ -46,3 +46,11 @@ body {
 .eyebrow {
     @apply uppercase font-bold text-gray-700 tracking-widest mb-4;
 }
+
+label {
+    @apply uppercase text-sm tracking-wide mb-2 block;
+}
+
+.hs-input {
+    @apply px-4 py-2 bg-gray-900 border-b-4 border-transparent focus:border-white text-white;
+}

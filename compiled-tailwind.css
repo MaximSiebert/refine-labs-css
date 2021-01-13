@@ -31297,6 +31297,36 @@ body {
   letter-spacing: 0.1em;
 }
 
+label {
+  display: block;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  margin-bottom: 0.5rem;
+  text-transform: uppercase;
+  letter-spacing: 0.025em;
+}
+
+.hs-input {
+  --tw-bg-opacity: 1;
+  background-color: rgba(21, 21, 23, var(--tw-bg-opacity));
+  border-color: transparent;
+}
+
+.hs-input:focus {
+  --tw-border-opacity: 1;
+  border-color: rgba(225, 225, 246, var(--tw-border-opacity));
+}
+
+.hs-input {
+  border-bottom-width: 4px;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  --tw-text-opacity: 1;
+  color: rgba(225, 225, 246, var(--tw-text-opacity));
+}
+
 @media (min-width: 640px) {
   .sm\:container {
     width: 100%;
