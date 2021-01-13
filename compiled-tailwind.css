@@ -31298,7 +31298,7 @@ body {
 }
 
 .hs-form-field {
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem;
 }
 
 .hs-error-msgs {
@@ -31309,6 +31309,7 @@ body {
 
 label {
   display: block;
+  font-weight: 700;
   font-size: 0.75rem;
   line-height: 1rem;
   margin-bottom: 0.25rem;
@@ -31319,7 +31320,8 @@ label {
 .hs-input {
   --tw-bg-opacity: 1;
   background-color: rgba(21, 21, 23, var(--tw-bg-opacity));
-  border-color: transparent;
+  --tw-border-opacity: 1;
+  border-color: rgba(0, 0, 0, var(--tw-border-opacity));
 }
 
 .hs-input:focus {
