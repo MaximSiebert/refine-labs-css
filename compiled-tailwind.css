@@ -31411,6 +31411,15 @@ label {
   transition-duration: 200ms;
 }
 
+.form-columns-1, .form-columns-2 {
+  max-width: inherit;
+  width: 100%;
+}
+
+.form-columns-1 .hs-input {
+  width: 100% !important;
+}
+
 @media (min-width: 640px) {
   .sm\:container {
     width: 100%;
