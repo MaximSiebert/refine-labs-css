@@ -31227,6 +31227,14 @@ body {
   line-height: 1.25rem;
   font-size: 1.125rem;
   line-height: 1.75rem;
+}
+
+.button-secondary:focus, .button-secondary-large:focus, .hs-button:focus {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+
+.button-secondary, .button-secondary-large, .hs-button {
   padding-top: 1rem;
   padding-bottom: 1rem;
   padding-left: 2rem;
