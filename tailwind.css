@@ -63,6 +63,10 @@ label {
     @apply px-5 py-3 text-lg bg-gray-900 border-b-2 border-black focus:border-white text-white focus:outline-none w-full;
 }
 
+textarea.hs-input {
+    height: 120px;
+}
+
 .hs-input.invalid, .hs-input.error {
     @apply border-blue-400;
 }
@@ -76,7 +80,7 @@ label {
 }
 
 .form-columns-1, .form-columns-2 {
-    max-width: inherit;
+    max-width: none !important;
     width: 100%;
 }
 

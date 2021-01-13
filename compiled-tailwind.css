@@ -31377,6 +31377,10 @@ label {
   width: 100%;
 }
 
+textarea.hs-input {
+  height: 120px;
+}
+
 .hs-input.invalid, .hs-input.error {
   --tw-border-opacity: 1;
   border-color: rgba(62, 172, 248, var(--tw-border-opacity));
@@ -31412,7 +31416,7 @@ label {
 }
 
 .form-columns-1, .form-columns-2 {
-  max-width: inherit;
+  max-width: none !important;
   width: 100%;
 }
 
