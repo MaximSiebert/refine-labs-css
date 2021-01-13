@@ -31310,8 +31310,8 @@ body {
 label {
   display: block;
   font-weight: 700;
-  font-size: 0.75rem;
-  line-height: 1rem;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
   margin-bottom: 0.25rem;
   text-transform: uppercase;
   letter-spacing: 0.025em;
@@ -31331,6 +31331,8 @@ label {
 
 .hs-input {
   border-bottom-width: 4px;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
 }
 
 .hs-input:focus {
@@ -31339,10 +31341,10 @@ label {
 }
 
 .hs-input {
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
-  padding-left: 1rem;
-  padding-right: 1rem;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
   --tw-text-opacity: 1;
   color: rgba(225, 225, 246, var(--tw-text-opacity));
   width: 100%;
