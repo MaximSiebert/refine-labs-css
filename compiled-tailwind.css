@@ -31297,11 +31297,21 @@ body {
   letter-spacing: 0.1em;
 }
 
+.hs-form-field {
+  margin-bottom: 1rem;
+}
+
+.hs-error-msgs {
+  margin-top: 0.25rem;
+  --tw-text-opacity: 1;
+  color: rgba(62, 172, 248, var(--tw-text-opacity));
+}
+
 label {
   display: block;
-  font-size: 0.875rem;
-  line-height: 1.25rem;
-  margin-bottom: 0.5rem;
+  font-size: 0.75rem;
+  line-height: 1rem;
+  margin-bottom: 0.25rem;
   text-transform: uppercase;
   letter-spacing: 0.025em;
 }
@@ -31319,12 +31329,21 @@ label {
 
 .hs-input {
   border-bottom-width: 4px;
+}
+
+.hs-input:focus {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+
+.hs-input {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
   padding-left: 1rem;
   padding-right: 1rem;
   --tw-text-opacity: 1;
   color: rgba(225, 225, 246, var(--tw-text-opacity));
+  width: 100%;
 }
 
 @media (min-width: 640px) {
