@@ -31378,6 +31378,31 @@ label {
   margin-top: 4rem;
 }
 
+.footer-menu .hs-menu-item a {
+  display: block;
+  display: block;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  margin-bottom: 0.5rem;
+  --tw-text-opacity: 1;
+  color: rgba(128, 160, 183, var(--tw-text-opacity));
+}
+
+.footer-menu .hs-menu-item a:hover {
+  --tw-text-opacity: 1;
+  color: rgba(35, 220, 112, var(--tw-text-opacity));
+}
+
+.footer-menu .hs-menu-item a {
+  text-transform: uppercase;
+  letter-spacing: 0.025em;
+  transition-property: background-color, border-color, color, fill, stroke;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 200ms;
+}
+
 @media (min-width: 640px) {
   .sm\:container {
     width: 100%;
