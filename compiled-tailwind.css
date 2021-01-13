@@ -31352,6 +31352,11 @@ label {
   width: 100%;
 }
 
+.hs-input.invalid, .hs-input.error {
+  --tw-border-opacity: 1;
+  border-color: rgba(62, 172, 248, var(--tw-border-opacity));
+}
+
 @media (min-width: 640px) {
   .sm\:container {
     width: 100%;
