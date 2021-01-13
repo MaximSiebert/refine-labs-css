@@ -68,7 +68,7 @@ label {
 }
 
 .hs-submit {
-    @apply mt-16;
+    @apply mt-10;
 }
 
 .footer-menu .hs-menu-item a {
