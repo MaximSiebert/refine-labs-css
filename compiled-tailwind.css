@@ -31225,7 +31225,7 @@ body {
   font-weight: 700;
   font-size: 0.875rem;
   line-height: 1.25rem;
-  font-size: 1.25rem;
+  font-size: 1.125rem;
   line-height: 1.75rem;
   padding-top: 1rem;
   padding-bottom: 1rem;
@@ -31258,6 +31258,16 @@ body {
 
 .button-secondary-large {
   border-width: 4px;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+.button-secondary-large:focus {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+
+.button-secondary-large {
   padding-left: 2.5rem;
   padding-right: 2.5rem;
   --tw-text-opacity: 1;
@@ -31362,6 +31372,10 @@ label {
 .hs-input.invalid, .hs-input.error {
   --tw-border-opacity: 1;
   border-color: rgba(62, 172, 248, var(--tw-border-opacity));
+}
+
+.hs-submit {
+  margin-top: 4rem;
 }
 
 @media (min-width: 640px) {
