@@ -31425,6 +31425,11 @@ textarea.hs-input {
   resize: none;
 }
 
+fieldset.form-columns-2 .hs-form-field {
+  width: 100% !important;
+  float: none !important;
+}
+
 @media (min-width: 1024px) {
   fieldset.form-columns-2 .hs-form-field {
     width: 50% !important;
