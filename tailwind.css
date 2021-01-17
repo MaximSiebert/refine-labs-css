@@ -118,3 +118,9 @@ fieldset.form-columns-1 .input, fieldset.form-columns-2 .input {
         margin-right: 16px !important;
     }
 }
+
+@media (max-width: 1024px) {
+    .hs-input { 
+        width: 100% !important;
+    }
+}
