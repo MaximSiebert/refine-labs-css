@@ -31315,10 +31315,18 @@ body {
   content: "";
   display: block;
   margin-left: 0.25rem;
-  width: 24px;
-  height: 24px;
+  width: 20px;
+  height: 20px;
   background: url(https://f.hubspotusercontent40.net/hubfs/5626040/Website%20Icons/chevron-right.svg) no-repeat center center;
+  background-size: cover;
   transition: margin .2s ease-in-out;
+}
+
+@media (min-width: 1024px) {
+  .text-button:after, .text-button-blue:after {
+    width: 24px;
+    height: 24px;
+  }
 }
 
 .text-button:hover:after, .text-button-blue:hover:after {
@@ -31327,6 +31335,7 @@ body {
 
 .text-button-blue:after {
   background: url(https://f.hubspotusercontent40.net/hubfs/5626040/Website%20Icons/chevron-right-blue.svg) no-repeat center center;
+  background-size: cover;
 }
 
 .text-button-blue {
