@@ -31225,8 +31225,6 @@ body {
   font-weight: 700;
   font-size: 0.875rem;
   line-height: 1.25rem;
-  font-size: 1.125rem;
-  line-height: 1.75rem;
 }
 
 .button-secondary:focus, .button-secondary-large:focus, .hs-button:focus {
@@ -31264,9 +31262,16 @@ body {
   transition-duration: 200ms;
 }
 
+@media (min-width: 1024px) {
+  .button-secondary, .button-secondary-large, .hs-button {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+  }
+}
+
 .button-secondary-large {
   border-width: 4px;
-  font-size: 1.25rem;
+  font-size: 1.125rem;
   line-height: 1.75rem;
 }
 
@@ -31282,14 +31287,28 @@ body {
   color: rgba(35, 220, 112, var(--tw-text-opacity));
 }
 
+@media (min-width: 1024px) {
+  .button-secondary-large {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
+}
+
 .text-button, .text-button-blue {
   display: flex;
   align-items: center;
   font-weight: 700;
-  font-size: 1.25rem;
+  font-size: 1.125rem;
   line-height: 1.75rem;
   --tw-text-opacity: 1;
   color: rgba(35, 220, 112, var(--tw-text-opacity));
+}
+
+@media (min-width: 1024px) {
+  .text-button, .text-button-blue {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
 }
 
 .text-button:after, .text-button-blue:after {
@@ -31386,8 +31405,10 @@ textarea.hs-input {
   border-color: rgba(62, 172, 248, var(--tw-border-opacity));
 }
 
-.hs-submit {
-  margin-top: 2.5rem;
+@media (min-width: 1024px) {
+  .hs-submit {
+    margin-top: 2.5rem;
+  }
 }
 
 .footer-menu .hs-menu-item a {
