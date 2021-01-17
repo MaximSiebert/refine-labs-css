@@ -31425,8 +31425,15 @@ textarea.hs-input {
   resize: none;
 }
 
-fieldset.form-columns-1 .input, fieldset.form-columns-2 .input {
-  margin-right: 16px !important;
+@media (min-width: 1024px) {
+  fieldset.form-columns-2 .hs-form-field {
+    width: 50% !important;
+    float: left !important;
+  }
+
+  fieldset.form-columns-1 .input, fieldset.form-columns-2 .input {
+    margin-right: 16px !important;
+  }
 }
 
 @media (min-width: 640px) {
