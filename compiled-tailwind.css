@@ -31178,6 +31178,7 @@ body {
   --tw-bg-opacity: 1;
   background-color: rgba(35, 220, 112, var(--tw-bg-opacity));
   border-radius: 0.375rem;
+  display: block;
   font-weight: 700;
   font-size: 0.875rem;
   line-height: 1.25rem;
@@ -31195,6 +31196,7 @@ body {
 }
 
 .button-primary {
+  text-align: center;
   --tw-text-opacity: 1;
   color: rgba(21, 21, 23, var(--tw-text-opacity));
   text-transform: uppercase;
