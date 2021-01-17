@@ -31303,6 +31303,7 @@ body {
   font-weight: 700;
   font-size: 1.125rem;
   line-height: 1.75rem;
+  line-height: 1.25;
   --tw-text-opacity: 1;
   color: rgba(35, 220, 112, var(--tw-text-opacity));
 }

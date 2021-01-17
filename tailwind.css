@@ -19,7 +19,7 @@ body {
 }
 
 .text-button, .text-button-blue {
-    @apply lg:text-xl text-lg font-bold text-green-400 flex items-center;
+    @apply lg:text-xl text-lg leading-tight font-bold text-green-400 flex items-center;
 }
 
 .text-button:after, .text-button-blue:after {
