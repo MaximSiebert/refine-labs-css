@@ -31284,10 +31284,17 @@ body {
 }
 
 .button-secondary-large {
-  padding-left: 2.5rem;
-  padding-right: 2.5rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
   --tw-text-opacity: 1;
   color: rgba(35, 220, 112, var(--tw-text-opacity));
+}
+
+@media (min-width: 768px) {
+  .button-secondary-large {
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+  }
 }
 
 @media (min-width: 1024px) {
