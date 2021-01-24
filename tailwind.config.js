@@ -29,6 +29,9 @@ module.exports = {
           '2xl': '0 25px 50px -12px rgba(35, 219, 111, .4)',
           inner: 'inset 0 2px 4px 0 rgba(35, 219, 111, 0.2)',
           none: 'none',
+        },
+        maxWidth: {
+          'max-w-7xl': '90rem'
         }
       },
       fontFamily: {
@@ -36,10 +39,6 @@ module.exports = {
         serif: ['"Archia"', ...fontFamily.serif],
         mono: [...fontFamily.mono],
       },
-      maxWidth: {
-        ...maxWidth,
-        'max-w-7xl': '90rem'
-      }
     },
     variants: {
     },
