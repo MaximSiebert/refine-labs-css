@@ -30,21 +30,21 @@ module.exports = {
           inner: 'inset 0 2px 4px 0 rgba(35, 219, 111, 0.2)',
           none: 'none',
         },
-        maxWidth: {
-          'max-w-0': '0rem',
-          'max-w-none': 'none',
-          'max-w-xs': '20rem',
-          'max-w-sm': '24rem',
-          'max-w-md': '28rem',
-          'max-w-lg': '32rem',
-          'max-w-xl': '36rem',
-          'max-w-2xl': '42rem',
-          'max-w-3xl': '48rem',
-          'max-w-4xl': '56rem',
-          'max-w-5xl': '64rem',
-          'max-w-6xl': '72rem',
-          'max-w-7xl': '90rem'
-        }
+      },
+      maxWidth: {
+        'max-w-0': '0rem',
+        'max-w-none': 'none',
+        'max-w-xs': '20rem',
+        'max-w-sm': '24rem',
+        'max-w-md': '28rem',
+        'max-w-lg': '32rem',
+        'max-w-xl': '36rem',
+        'max-w-2xl': '42rem',
+        'max-w-3xl': '48rem',
+        'max-w-4xl': '56rem',
+        'max-w-5xl': '64rem',
+        'max-w-6xl': '72rem',
+        'max-w-7xl': '90rem'
       },
       fontFamily: {
         sans: ['"HKSentiments"', ...fontFamily.sans],
