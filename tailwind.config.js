@@ -1,4 +1,4 @@
-const { colors, fontFamily } = require('tailwindcss/defaultTheme');
+const { colors, fontFamily, maxWidth } = require('tailwindcss/defaultTheme');
 module.exports = {
     purge: [],
     theme: {
@@ -36,6 +36,10 @@ module.exports = {
         serif: ['"Archia"', ...fontFamily.serif],
         mono: [...fontFamily.mono],
       },
+      maxWidth: {
+        ...maxWidth,
+        'max-w-7xl': '90rem'
+      }
     },
     variants: {
     },
