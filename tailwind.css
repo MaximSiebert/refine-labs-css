@@ -73,17 +73,11 @@ label {
 }
 
 textarea.hs-input {
-    height: 120px;
+    height: 90px;
 }
 
 .hs-input.invalid, .hs-input.error {
     @apply border-blue-400;
-}
-
-@media (min-width: 1024px) {
-    .hs-submit {
-        @apply mt-10;
-    }
 }
 
 .footer-menu .hs-menu-item a {
