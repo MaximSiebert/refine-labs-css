@@ -65,7 +65,7 @@ body {
 }
 
 label {
-    @apply uppercase text-sm tracking-wide mb-1 block font-bold;
+    @apply uppercase text-xs tracking-wide mb-1 block font-bold;
 }
 
 .hs-input {
