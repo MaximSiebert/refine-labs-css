@@ -31465,6 +31465,10 @@ fieldset.form-columns-1 .input, fieldset.form-columns-2 .input {
   margin-bottom: 2rem;
 }
 
+.pillar-content-block p img {
+  width: 80% !important;
+}
+
 .pillar-content-block ul {
   list-style-type: disc;
   margin-bottom: 2rem;

@@ -131,6 +131,10 @@ fieldset.form-columns-1 .input, fieldset.form-columns-2 .input {
     @apply mb-8;
 }
 
+.pillar-content-block p img {
+    width: 80% !important;
+}
+
 .pillar-content-block ul {
     @apply pl-10 mb-8 list-disc;
 }
