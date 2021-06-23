@@ -7,24 +7,24 @@ body {
 }
 
 .button-primary {
-    @apply bg-green-400 block leading-tight text-center uppercase text-sm tracking-widest text-gray-900 rounded-md py-4 px-5 font-bold shadow-lg hover:shadow-xl transition-shadow ease-in-out duration-200;
+    @apply block px-5 py-4 text-sm font-bold leading-tight tracking-widest text-center text-gray-900 uppercase transition-shadow duration-200 ease-in-out bg-green-400 rounded-md shadow-lg hover:shadow-xl;
 }
 
 .button-secondary, .button-secondary-large, .hs-button {
-    @apply bg-transparent lg:text-lg cursor-pointer border-4 border-green-400 text-sm text-white rounded-md py-4 px-8 font-bold font-serif transition ease-in-out duration-200 hover:bg-green-400 hover:text-gray-900 hover:shadow-lg focus:outline-none;
+    @apply px-8 py-4 font-serif text-sm font-bold text-white transition duration-200 ease-in-out bg-transparent border-4 border-green-400 rounded-md cursor-pointer lg:text-lg hover:bg-green-400 hover:text-gray-900 hover:shadow-lg focus:outline-none;
 }
 
 .button-secondary-large {
-    @apply border-4 text-green-400 md:px-10 px-6 lg:text-xl text-lg focus:outline-none;
+    @apply px-6 text-lg text-green-400 border-4 md:px-10 lg:text-xl focus:outline-none;
 }
 
 .text-button, .text-button-blue {
-    @apply lg:text-xl text-lg leading-tight font-bold text-green-400 flex items-center;
+    @apply flex items-center text-lg font-bold leading-tight text-green-400 lg:text-xl;
 }
 
 .text-button:after, .text-button-blue:after {
     content: "";
-    @apply ml-1 block;
+    @apply block ml-1;
     width: 20px;
     height: 20px;
     background: url(https://f.hubspotusercontent40.net/hubfs/5626040/Website%20Icons/chevron-right.svg) no-repeat center center;
@@ -53,7 +53,7 @@ body {
 }
 
 .eyebrow {
-    @apply uppercase font-bold text-gray-700 tracking-widest mb-4;
+    @apply mb-4 font-bold tracking-widest text-gray-700 uppercase;
 }
 
 .hs-form-field {
@@ -65,11 +65,11 @@ body {
 }
 
 label {
-    @apply uppercase text-xs tracking-wide mb-1 block font-bold;
+    @apply block mb-1 text-xs font-bold tracking-wide uppercase;
 }
 
 .hs-input {
-    @apply px-5 py-3 text-lg bg-gray-900 border-b-2 border-black focus:border-white text-white focus:outline-none w-full;
+    @apply w-full px-5 py-3 text-lg text-white bg-gray-900 border-b-2 border-black focus:border-white focus:outline-none;
 }
 
 textarea.hs-input {
@@ -81,7 +81,7 @@ textarea.hs-input {
 }
 
 .footer-menu .hs-menu-item a {
-    @apply uppercase text-sm tracking-wide mb-2 block text-gray-400 hover:text-green-400 transition-colors ease-in-out duration-200 block;
+    @apply block mb-2 text-sm tracking-wide text-gray-400 uppercase transition-colors duration-200 ease-in-out hover:text-green-400;
 }
 
 .form-columns-1, .form-columns-2 {
@@ -117,4 +117,16 @@ fieldset.form-columns-1 .input, fieldset.form-columns-2 .input {
     .hs-input { 
         width: 100% !important;
     }
+}
+
+.pillar-content-block h3 {
+    @apply mb-4 font-bold lg:text-3xl;
+}
+
+.pillar-content-block p {
+    @apply mb-8;
+}
+
+.pillar-content-block ul {
+    @apply pl-4 mb-8;
 }

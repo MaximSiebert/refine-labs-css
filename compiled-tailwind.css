@@ -31387,7 +31387,6 @@ textarea.hs-input {
 
 .footer-menu .hs-menu-item a {
   display: block;
-  display: block;
   font-size: 0.875rem;
   line-height: 1.25rem;
   margin-bottom: 0.5rem;
@@ -31444,6 +31443,27 @@ fieldset.form-columns-1 .input, fieldset.form-columns-2 .input {
   .hs-input {
     width: 100% !important;
   }
+}
+
+.pillar-content-block h3 {
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+@media (min-width: 1024px) {
+  .pillar-content-block h3 {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+  }
+}
+
+.pillar-content-block p {
+  margin-bottom: 2rem;
+}
+
+.pillar-content-block ul {
+  margin-bottom: 2rem;
+  padding-left: 1rem;
 }
 
 @media (min-width: 640px) {
