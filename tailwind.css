@@ -120,7 +120,7 @@ fieldset.form-columns-1 .input, fieldset.form-columns-2 .input {
 }
 
 .pillar-content-block h3 {
-    @apply mb-4 font-bold lg:text-3xl;
+    @apply mb-6 font-bold lg:text-3xl;
 }
 
 .pillar-content-block p {
@@ -128,5 +128,5 @@ fieldset.form-columns-1 .input, fieldset.form-columns-2 .input {
 }
 
 .pillar-content-block ul {
-    @apply pl-4 mb-8;
+    @apply pl-4 mb-8 list-disc;
 }
