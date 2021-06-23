@@ -138,3 +138,19 @@ fieldset.form-columns-1 .input, fieldset.form-columns-2 .input {
 .pillar-content-block p + ul {
     margin-top: -1.5rem;
 }
+
+.pillar-content-block table {
+    @apply border-0 bg-gray-900 text-white lg:text-xl !important;
+}
+
+.pillar-content-block table tr {
+    @apply py-4 px-8 h-auto !important;
+}
+
+.pillar-content-block table tr:first-child {
+    @apply text-black bg-green-400 lg:text-2xl;
+}
+
+.pillar-content-block table tr:odd-child {
+    @apply bg-black;
+}
