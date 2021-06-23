@@ -31502,6 +31502,11 @@ fieldset.form-columns-1 .input, fieldset.form-columns-2 .input {
   padding-right: 2rem !important;
 }
 
+.pillar-content-block table tr:nth-child(odd) {
+  --tw-bg-opacity: 1;
+  background-color: rgba(0, 0, 0, var(--tw-bg-opacity));
+}
+
 .pillar-content-block table tr:first-child {
   --tw-bg-opacity: 1;
   background-color: rgba(35, 220, 112, var(--tw-bg-opacity));
@@ -31515,11 +31520,6 @@ fieldset.form-columns-1 .input, fieldset.form-columns-2 .input {
     font-size: 1.5rem;
     line-height: 2rem;
   }
-}
-
-.pillar-content-block table tr:nth-child(odd) {
-  --tw-bg-opacity: 1;
-  background-color: rgba(0, 0, 0, var(--tw-bg-opacity));
 }
 
 @media (min-width: 640px) {

@@ -151,10 +151,10 @@ fieldset.form-columns-1 .input, fieldset.form-columns-2 .input {
     @apply py-4 px-8 h-auto !important;
 }
 
-.pillar-content-block table tr:first-child {
-    @apply font-bold text-black bg-green-400 lg:text-2xl;
-}
-
 .pillar-content-block table tr:nth-child(odd) {
     @apply bg-black;
+}
+
+.pillar-content-block table tr:first-child {
+    @apply font-bold text-black bg-green-400 lg:text-2xl;
 }
