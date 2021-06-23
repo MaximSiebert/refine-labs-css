@@ -31127,6 +31127,10 @@ video {
           animation: bounce 1s infinite;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   --tw-bg-opacity: 1;
   background-color: rgba(21, 21, 23, var(--tw-bg-opacity));
