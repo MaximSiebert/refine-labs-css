@@ -123,10 +123,18 @@ fieldset.form-columns-1 .input, fieldset.form-columns-2 .input {
     @apply mb-6 font-bold lg:text-3xl;
 }
 
+.pillar-content-block h3:not(:first-child) {
+    @apply mt-6;
+}
+
 .pillar-content-block p {
     @apply mb-8;
 }
 
 .pillar-content-block ul {
-    @apply pl-4 mb-8 list-disc;
+    @apply pl-10 mb-8 list-disc;
+}
+
+.pillar-content-block p + ul {
+    margin-top: -1.5rem;
 }

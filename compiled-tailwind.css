@@ -31457,6 +31457,10 @@ fieldset.form-columns-1 .input, fieldset.form-columns-2 .input {
   }
 }
 
+.pillar-content-block h3:not(:first-child) {
+  margin-top: 1.5rem;
+}
+
 .pillar-content-block p {
   margin-bottom: 2rem;
 }
@@ -31464,7 +31468,11 @@ fieldset.form-columns-1 .input, fieldset.form-columns-2 .input {
 .pillar-content-block ul {
   list-style-type: disc;
   margin-bottom: 2rem;
-  padding-left: 1rem;
+  padding-left: 2.5rem;
+}
+
+.pillar-content-block p + ul {
+  margin-top: -1.5rem;
 }
 
 @media (min-width: 640px) {
