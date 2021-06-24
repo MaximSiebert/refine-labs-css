@@ -31534,6 +31534,24 @@ fieldset.form-columns-1 .input, fieldset.form-columns-2 .input {
   min-height: inherit !important;
 }
 
+.accordion div {
+  display: none;
+}
+
+.accordion h3 {
+  cursor: pointer;
+}
+
+.accordion h3:after {
+  content: "";
+  display: block;
+  margin-left: 0.25rem;
+  width: 20px;
+  height: 20px;
+  background: url(https://f.hubspotusercontent40.net/hubfs/5626040/chevron-down.svg) no-repeat center center;
+  background-size: cover;
+}
+
 @media (min-width: 640px) {
   .sm\:container {
     width: 100%;

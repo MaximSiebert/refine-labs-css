@@ -170,3 +170,20 @@ fieldset.form-columns-1 .input, fieldset.form-columns-2 .input {
 .row-fluid [class*="span"] {
     min-height: inherit !important;
 }
+
+.accordion div {
+    display: none;
+}
+
+.accordion h3 {
+    @apply cursor-pointer;
+}
+
+.accordion h3:after {
+    content: "";
+    @apply block ml-1;
+    width: 20px;
+    height: 20px;
+    background: url(https://f.hubspotusercontent40.net/hubfs/5626040/chevron-down.svg) no-repeat center center;
+    background-size: cover;
+}
