@@ -187,3 +187,7 @@ fieldset.form-columns-1 .input, fieldset.form-columns-2 .input {
     background: url(https://f.hubspotusercontent40.net/hubfs/5626040/chevron-down.svg) no-repeat center center;
     background-size: cover;
 }
+
+.accordion h3.opened:after {
+    transform: rotate(-180deg);
+}
