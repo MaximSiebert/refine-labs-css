@@ -191,3 +191,17 @@ fieldset.form-columns-1 .input, fieldset.form-columns-2 .input {
 .accordion h3.opened:after {
     transform: rotate(-180deg);
 }
+
+/* Slider Pagination  */
+
+.swiper-pagination-bullet {
+    width: 40px;
+    height: 40px;
+    background: #fff;
+    border: 1px solid #000;
+    opacity: 1;
+}
+
+.swiper-pagination-bullet-active {
+    @apply bg-green-400;
+}
