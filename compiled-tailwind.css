@@ -31465,6 +31465,11 @@ fieldset.form-columns-1 .input, fieldset.form-columns-2 .input {
   margin-top: 1.5rem;
 }
 
+.pillar-content-block p {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
 .pillar-content-block p:not(:last-child) {
   margin-bottom: 2rem;
 }
@@ -31474,6 +31479,8 @@ fieldset.form-columns-1 .input, fieldset.form-columns-2 .input {
 }
 
 .pillar-content-block ul {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
   list-style-type: disc;
   margin-bottom: 2rem;
   padding-left: 1rem;
