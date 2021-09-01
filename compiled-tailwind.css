@@ -31595,13 +31595,13 @@ fieldset.form-columns-1 .input, fieldset.form-columns-2 .input {
 }
 
 .vault-chapters li.hs-menu-depth-1 {
-  margin-bottom: 1rem;
+  margin-bottom: 1.25rem;
 }
 
 .vault-chapters .hs-menu-children-wrapper li {
   font-size: 0.75rem;
   line-height: 1rem;
-  margin-bottom: 0.5rem;
+  margin-top: 0.5rem;
 }
 
 @media (min-width: 640px) {

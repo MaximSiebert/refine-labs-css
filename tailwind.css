@@ -220,9 +220,9 @@ fieldset.form-columns-1 .input, fieldset.form-columns-2 .input {
 }
 
 .vault-chapters li.hs-menu-depth-1 {
-    @apply mb-4;
+    @apply mb-5;
 }
 
 .vault-chapters .hs-menu-children-wrapper li {
-    @apply mb-2 text-xs;
+    @apply mt-2 text-xs;
 }
