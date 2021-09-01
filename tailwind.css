@@ -140,7 +140,7 @@ fieldset.form-columns-1 .input, fieldset.form-columns-2 .input {
 }
 
 .pillar-content-block ul {
-    @apply pl-10 mb-8 list-disc;
+    @apply mb-8 list-disc;
 }
 
 .pillar-content-block p + ul {
