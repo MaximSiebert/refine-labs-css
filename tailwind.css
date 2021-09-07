@@ -152,7 +152,7 @@ fieldset.form-columns-1 .input, fieldset.form-columns-2 .input {
 }
 
 .pillar-content-block table {
-    @apply border-0 bg-gray-900 text-white lg:text-xl !important;
+    @apply border-0 text-white text-base !important;
 }
 
 .pillar-content-block table tr {
@@ -164,11 +164,15 @@ fieldset.form-columns-1 .input, fieldset.form-columns-2 .input {
 }
 
 .pillar-content-block table tr:nth-child(odd) {
-    @apply bg-black;
+    @apply border-b border-gray-800
+}
+
+.pillar-content-block table tr:last-child {
+    @apply border-b-0
 }
 
 .pillar-content-block table tr:first-child {
-    @apply font-bold text-black bg-green-400 lg:text-2xl;
+    @apply text-sm font-bold tracking-wider text-gray-400 bg-transparent border-b-0;
 }
 
 .row-fluid [class*="span"] {
