@@ -31450,15 +31450,9 @@ fieldset.form-columns-1 .input, fieldset.form-columns-2 .input {
 }
 
 .pillar-content-block h3 {
-  font-weight: 700;
+  font-size: 1.875rem;
+  line-height: 2.25rem;
   margin-bottom: 1.5rem;
-}
-
-@media (min-width: 1024px) {
-  .pillar-content-block h3 {
-    font-size: 1.875rem;
-    line-height: 2.25rem;
-  }
 }
 
 .pillar-content-block h3:not(:first-child) {
@@ -31490,6 +31484,12 @@ fieldset.form-columns-1 .input, fieldset.form-columns-2 .input {
   margin-top: -1.5rem;
 }
 
+.pillar-content-block hr {
+  --tw-border-opacity: 1;
+  border-color: rgba(0, 0, 0, var(--tw-border-opacity));
+  margin-bottom: 2rem;
+}
+
 .pillar-content-block table {
   border-width: 0px !important;
   font-size: 1rem !important;
@@ -31502,22 +31502,20 @@ fieldset.form-columns-1 .input, fieldset.form-columns-2 .input {
   height: auto !important;
 }
 
-.pillar-content-block table tr td {
-  height: auto !important;
-  padding-top: 1rem !important;
-  padding-bottom: 1rem !important;
-  padding-left: 2rem !important;
-  padding-right: 2rem !important;
-}
-
-.pillar-content-block table tr:nth-child(odd) {
+.pillar-content-block table tr {
   --tw-border-opacity: 1;
   border-color: rgba(36, 36, 38, var(--tw-border-opacity));
-  border-bottom-width: 1px
+  border-bottom-width: 1px;
+}
+
+.pillar-content-block table tr td {
+  height: auto !important;
+  padding-top: 0.5rem !important;
+  padding-bottom: 0.5rem !important;
 }
 
 .pillar-content-block table tr:last-child {
-  border-bottom-width: 0px
+  border-bottom-width: 0px;
 }
 
 .pillar-content-block table tr:first-child {

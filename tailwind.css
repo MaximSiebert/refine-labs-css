@@ -124,7 +124,7 @@ fieldset.form-columns-1 .input, fieldset.form-columns-2 .input {
 }
 
 .pillar-content-block h3 {
-    @apply mb-6 font-bold lg:text-3xl;
+    @apply mb-6 text-3xl;
 }
 
 .pillar-content-block h3:not(:first-child) {
@@ -151,6 +151,10 @@ fieldset.form-columns-1 .input, fieldset.form-columns-2 .input {
     margin-top: -1.5rem;
 }
 
+.pillar-content-block hr {
+    @apply mb-8 border-black;
+}
+
 .pillar-content-block table {
     @apply border-0 text-white text-base !important;
 }
@@ -159,16 +163,16 @@ fieldset.form-columns-1 .input, fieldset.form-columns-2 .input {
     @apply h-auto !important;
 }
 
-.pillar-content-block table tr td {
-    @apply py-4 px-8 h-auto !important;
+.pillar-content-block table tr {
+    @apply border-b border-gray-800;
 }
 
-.pillar-content-block table tr:nth-child(odd) {
-    @apply border-b border-gray-800
+.pillar-content-block table tr td {
+    @apply py-2 h-auto !important;
 }
 
 .pillar-content-block table tr:last-child {
-    @apply border-b-0
+    @apply border-b-0;
 }
 
 .pillar-content-block table tr:first-child {
