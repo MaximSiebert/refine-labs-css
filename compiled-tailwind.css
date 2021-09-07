@@ -31487,6 +31487,7 @@ fieldset.form-columns-1 .input, fieldset.form-columns-2 .input {
 .pillar-content-block hr {
   --tw-border-opacity: 1;
   border-color: rgba(0, 0, 0, var(--tw-border-opacity));
+  border-top-width: 2px;
   margin-bottom: 2rem;
 }
 
@@ -31522,8 +31523,8 @@ fieldset.form-columns-1 .input, fieldset.form-columns-2 .input {
   background-color: transparent;
   border-bottom-width: 0px;
   font-weight: 700;
-  font-size: 0.875rem;
-  line-height: 1.25rem;
+  font-size: 0.75rem;
+  line-height: 1rem;
   --tw-text-opacity: 1;
   color: rgba(128, 160, 183, var(--tw-text-opacity));
   letter-spacing: 0.05em;
