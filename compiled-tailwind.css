@@ -31512,6 +31512,10 @@ fieldset.form-columns-1 .input, fieldset.form-columns-2 .input {
   height: auto !important;
 }
 
+.pillar-content-block table td {
+  height: auto !important;
+}
+
 .pillar-content-block table tr {
   --tw-border-opacity: 1;
   border-color: rgba(36, 36, 38, var(--tw-border-opacity));
