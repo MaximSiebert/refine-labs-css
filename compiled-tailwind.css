@@ -31459,6 +31459,11 @@ fieldset.form-columns-1 .input, fieldset.form-columns-2 .input {
   margin-top: 1.5rem;
 }
 
+.pillar-content-block h4 {
+  margin-bottom: 1.5rem;
+  letter-spacing: 0.05em;
+}
+
 .pillar-content-block p {
   font-size: 1.125rem;
   line-height: 1.75rem;
