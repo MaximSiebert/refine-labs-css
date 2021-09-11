@@ -31460,6 +31460,8 @@ fieldset.form-columns-1 .input, fieldset.form-columns-2 .input {
 }
 
 .pillar-content-block h4 {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
   margin-bottom: 1.5rem;
   letter-spacing: 0.05em;
 }
@@ -31471,10 +31473,6 @@ fieldset.form-columns-1 .input, fieldset.form-columns-2 .input {
 
 .pillar-content-block p:not(:last-child) {
   margin-bottom: 2rem;
-}
-
-.pillar-content-block p img {
-  width: 80% !important;
 }
 
 .pillar-content-block ul {
